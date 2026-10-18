@@ -1,16 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop CaFe Van Kha</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <h1>Chào mừng đến quán cafe của văn kha đẹp trai</h1>
-    <p>một số thức uống của quán 2</p>
-    <h2>văn kha đẹp trai</h2>
+    <!--thanh điều hướng menu -->
+   <header class="menu">
+    <!--logo-->
+    <img src="./image/logo.png" alt="logo quan"> 
+    <!--menu-->
+   <nav>
+    <ul>
+        <li><a href="#home">Trang Chủ</a></li>
+        <li><a href="#product">Sản Phẩm</a></li>
+        <li><a href="#about">Giới Thiệu</a></li>
+        <li><a href="#contact">Liên Hệ</a></li>
+        <li><a href="#cart">Giỏ Hàng</a></li>
+    </ul>
+   </nav>
+   </header>
+
+   <!--banner-->
+    <section class="banner">
+     <img src="./image/banner.png" alt="banner" width="100%">
+     </section>
+
+     <!--sản phẩm-->
+     <section class="menu-section" id="product">
+        <h2 class="section-title">Thực Đơn Nổi Bật</h2>
+        <div class="menu-grid">
+            <!--món cafe-->
+            <div class="menu-card">
+                <img src="./image/cafe1.png" alt="cafe1">
+                <div class="card-content">
+                    <h3>Cà Phê đen Nóng</h3>
+                    <p>Đậm đà hương vị cà phê nguyên chất, thích hợp cho những ai yêu thích sự mạnh mẽ.</p>
+                    <div class="card-footer">
+                        <span class="price">25.000đ</span>
+                        <button class="order-btn"> Mua Ngay </button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="./image/cafe2.png" alt="cafe2">
+                <div class="card-content">
+                    <h3>Cà Phê Sữa Nóng</h3>
+                    <p>Ngọt ngào và thơm ngon, là lựa chọn lý tưởng cho những ai yêu thích vị sữa đặc.</p>
+                    <div class="card-footer">
+                        <span class="price">28.000đ</span>
+                        <button class="order-btn"> Mua Ngay </button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="./image/cafe3.png" alt="cafe3">
+                <div class="card-content">
+                    <h3>Cà Phê Caramel Macchiato</h3>
+                    <p>Đậm đà hương vị cà phê nguyên chất, thích hợp cho những ai yêu thích sự mạnh mẽ.</p>
+                    <div class="card-footer">
+                        <span class="price">30.000đ</span>
+                        <button class="order-btn"> Mua Ngay </button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="./image/cafe4.png" alt="cafe4">
+                <div class="card-content">
+                    <h3>Cà Phê Muối</h3>
+                    <p>Ngọt ngào và thơm ngon, là lựa chọn lý tưởng cho những ai yêu thích vị sữa đặc.</p>
+                    <div class="card-footer">
+                        <span class="price">37.000đ</span>
+                        <button class="order-btn"> Mua Ngay </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
 </body>
 
 </html>
